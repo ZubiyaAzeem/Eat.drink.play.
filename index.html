@@ -7,11 +7,9 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"rel="stylesheet"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700;800;900&family=Nunito:wght@400;800&family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
 <body>
-    <nav>
+    <nav id="nav">
 
         <i class="ri-bubble-chart-fill"></i>
         <h1>topracer range</h1>
@@ -20,6 +18,8 @@
         <h1>leagues</h1>
         <h1>coffee shop</h1>
     </nav>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
     <video autoplay loop muted src="background.mp4"></video>
     <div id="main">
         <div id="page1">
@@ -28,7 +28,71 @@
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, sit.</h3>
         </div>
         <div id="page2">
-            
+            <div id="scroller">
+                <div id="scroller-in-1">
+                    <h4>topracer range</h4>
+                    <h4>golf lessons</h4>
+                    <h4>adventure golf</h4>
+                    <h4>leagues</h4>
+                    <h4>coffee shop</h4>
+                </div>
+
+                <div id="scroller-in-2">
+                    <h4>topracer range</h4>
+                    <h4>golf lessons</h4>
+                    <h4>adventure golf</h4>
+                    <h4>leagues</h4>
+                    <h4>coffee shop</h4>
+                </div>
+             </div>
+
+             <div id="about-us">
+                <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <div id="about-txt">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto fugit, labore praesentium eos omnis aspernatur cumque consectetur ea totam repellendus doloremque laborum?</p>
+                </div>
+                <img src="https://plus.unsplash.com/premium_photo-1679505066783-1f303b598fd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+             </div>
+
+             <div id="card-container">
+                <div class="card" id="card1">
+                    <h2>Woolen</h2>
+                    <div id="overlay">
+                        <h1>Woolen</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima reprehenderit iste laborum aperiam tenetur et, magni sit facere perspiciatis iure!</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <h2>fashion</h2>
+                    <div id="overlay">
+                        <h1>Fashion</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima reprehenderit iste laborum aperiam tenetur et, magni sit facere perspiciatis iure!</p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <h2>formal</h2>
+                    <div id="overlay">
+                        <h1>formal</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima reprehenderit iste laborum aperiam tenetur et, magni sit facere perspiciatis iure!</p>
+                    </div>
+                </div>
+             </div>
+
+             <div id="green-part">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, aliquam?</h2>
+             </div>
+        </div>
+
+        <div id="page3">
+            <p>
+                Excellent couple of hours, relax and enjoy in the fun. Staff were
+                accommodating, friendly and very helpful. Café on site for
+                refreshments etc. Will keep children enterntained during the holidays.
+                Worth a visit if you haven’t been.
+              </p>
+              <img id="col1" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg" alt="">
+              <img id="col2" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg" alt="">
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
